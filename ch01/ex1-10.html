@@ -1,0 +1,21 @@
+<!-- Listing 1.10  Linking each note to the notes.note route -->
+
+<script type="text/x-handlebars" id="notes">
+  <div id="notes" class="azureBlueBackground azureBlueBorderThin">
+    {{input valueBinding="newNoteName"}}
+    <button class="btn btn-default btn-xs"
+	    {{action "createNewNote"}}>
+      New Note
+    </button>
+
+    <div class="list-group" style="margin-top: 10px;">
+      {{#each controller}}
+        <div class="list-group-item">
+	  {{#linkTo "notes.note" this}}
+	    {{name}}
+	  {{/linkTo}}
+	</div>
+      {{/each}}
+    </div>
+  </div>
+</script>

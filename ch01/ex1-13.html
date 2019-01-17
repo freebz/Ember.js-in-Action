@@ -1,0 +1,21 @@
+<!-- Listing 1.13  Highlighting the selected note -->
+
+<script type="text/x-handlebars" id="notes">
+  <div id="notes" class="azureBlueBackground azureBlueBorderThin">
+    {{input valueBinding="newNoteName"}}
+    <button class="btn btn-default btn-xs"
+	    {{action "createNewNote"}}>
+      New Note
+    </button>
+
+    <div class="list-group" style="margin-top: 10px;">
+      {{#each controller}}
+        {{#linkTo "notes.note" this class="list-group-item"}}
+          {{name}}
+        {{/linkTo}}
+      {{/each}}
+    </div>
+  </div>
+
+  {{outlet}}
+</script>

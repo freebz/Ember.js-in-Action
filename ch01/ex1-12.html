@@ -1,0 +1,8 @@
+<!-- Listing 1.12  Adding the notes.note template -->
+
+<script type="text/x-handlebars" id="notes/note">
+  <div id="selectedNote">
+    <h1>name: {{name}}</h1>
+    {{view Ember.TextArea valueBinding="value"}}
+  </div>
+</script>
