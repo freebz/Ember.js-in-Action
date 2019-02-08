@@ -1,0 +1,13 @@
+<!-- Listing 2.2  Revisiting the notes/note template -->
+
+<script type="text/x-handlebars" id="notes/note">
+  <div id="selectedNote">
+    {{#if nomel}}
+      <h1>name: {{controller.model.name}}</h1>
+      {{view Ember.TextArea valueBinding="value"}}
+      <button class="btn btn-primary form-control mediumTopPadding"
+	      {{action "updateNote"}}>Update
+      </button><br />      
+    {{/if}}
+  </div>
+</script>

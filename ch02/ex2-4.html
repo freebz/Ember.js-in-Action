@@ -1,0 +1,32 @@
+<!-- Listing 2.4  Showing the introduction computed property in the notes template -->
+
+<script type="text/x-handlebars" id="notes">
+  <div id="notes" class="azureBlueBackground azureBlueBorderThin">
+    {{input valueBinding="newNoteName"}}
+    <button class="btn btn-default btn-xs"
+	    {{action "createNewNote"}}>
+      New Note
+    </button>
+
+    <div class="list-group" style="margin-top: 10px">
+      {{#each controller}}
+        {{#linkTo "notes.note" this class="list-group-item"}}
+          {{name}}
+          {{#if introduction}}
+            <br />{{introduction}}
+	  {{/if}}
+
+	  <button class="btn btn-danger btn-xs pull-right"
+		  {{action "doDeleteNote" this}}>
+	    Delete
+	  </button>
+	{{/linkTo}}
+
+      {{/each}}
+    </div>
+  </div>
+
+  {{outlet}}
+
+  {{partial confirmDialog}}
+</script>
