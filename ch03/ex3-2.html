@@ -1,0 +1,21 @@
+<!-- Listing 3.2  Application and blog templates -->
+
+<script type="text/x-handlebars" id="application">
+  <div id="mainArea">
+    <h1>Ember.js in Action Blog</h1>
+
+    {{outlet}}
+  </div>
+</script>
+
+<script type="text/x-handlebars" id="blog">
+  <div id="blogsArea">
+    {{#each controller}}
+      <h1>{{postTitle}}</h1>
+      <div class="postDate">{{postDate}}</div>
+      {{postLongIntro}}<br />
+
+      <hr class="blogSeparator"/>
+    {{/each}}
+  </div>
+</script>

@@ -1,0 +1,10 @@
+<!-- Listing 3.12  Adding the blog/post template -->
+
+<script type="text/x-handlebars" id="blog/post">
+  <div id="blogPostArea">
+    <div class="postDate">{{formattedDate}}</div>
+    <br />{{#linkTo "blog.index"}}&lt; back{{/linkTo}}
+    {{markdown}}
+    <br />{{#linkTo "blog.index"}}&lt; back{{/linkTo}}
+  </div>
+</script>

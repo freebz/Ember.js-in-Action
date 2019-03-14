@@ -1,0 +1,12 @@
+// Listing 3.5  Contents of the blogPosts file
+
+{ "blogPosts": [
+    {
+      "id": "2012-05-05-Ember_tree",
+      "postTitle": "Implementing a Custom Tree Model in Ember",
+      "postDate": "2012-05-05",
+      "postShortIntro": "Explaining the Client side MVC model ...",
+      "postLongIntro": "We have had a number of very good ..."
+    }
+  ]
+}

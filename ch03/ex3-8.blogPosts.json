@@ -1,0 +1,27 @@
+// Listing 3.8  Updated blogPosts file
+
+{ "blogPosts":
+  [
+    {
+      "id": "2012-05-05-Ember_tree",
+      "postTitle": "Implementing a Custom Tree Model in Ember",
+      "postDate": "2012-05-05",
+      "postShortIntro": "Explaining the Client side MVC model and how ...",
+      "postLongIntro": "We have had a number of very good ..."
+    },
+    {
+      "id": "2012-05-14-when_did_agile_swallow_pragmatic",
+      "postTitle": "When Did Agile Swallow Pragmatic ?",
+      "postDate": "2012-05-14",
+      "postShortIntro": "My question, is simply this: When did Agile ...",
+      "postLongIntro": "The Agile train have arrived and it .."
+    },
+    {
+      "id": "2012-09-03-Combining_Ember_is_with_Netty",
+      "postTitle": "Combining Ember.js with Netty",
+      "postDate": "2012-09-03",
+      "postShortIntro": "Combining Ember.js with Netty ",
+      "postLongIntro": "This blog post is split up intro three parts. ..."
+    }
+  ]
+}

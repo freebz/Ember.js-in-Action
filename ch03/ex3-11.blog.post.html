@@ -1,0 +1,13 @@
+<!-- Listing 3.11  Adding link from blog.index template to blog.post template -->
+
+<script type="text/x-handlebars" id="blog/index">
+  <div id="blogArea">
+    {{#each controller}}
+      <h1>{{postTitle}}</h1>
+      <div class="postDate">{{formattedDate}}</div>
+      {{postLongIntro}}<br /><br />
+      {{#linkTo "blog.post" this))Full Article ->((/linkTo))
+      <hr class="blogSeperator"/>
+    {{/each}}
+  </div>
+</script>

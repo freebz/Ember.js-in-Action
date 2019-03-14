@@ -1,0 +1,13 @@
+<!-- Listing 3.7  Updated template -->
+
+<script type="text/x-handlebars" id="blog">
+  <div id="blogArea">
+    {{#each controller}}
+      <h1>{{postTitle}}</h1>
+      <div class="postDate">{{formattedDate}}</div>
+      {{postLongIntro}}<br />
+
+      <hr class="blogSeperator"/>
+    {{/each}}
+  </div>
+</script>
