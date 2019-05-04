@@ -1,0 +1,17 @@
+<!-- Listing 4.31  Using the {{input}} and {{textarea}} expressions -->
+
+App.AwesomeController = Ember.Controller.extend({
+  userCanEdit: true,
+  placeholder: "Enter a value",
+  fieldLength: 20,
+  defaultValue: "Food"
+});
+<script type="text/x-handlebars" id="awesome">
+  {{input type="text" value="Groceries" size="25"}} <br/>
+
+  {{input type="text" value=defaultValue size=fieldLength}} <br/>
+  {{textarea value="My text area text"}} <br/>
+
+  {{textarea value=defaultValue}}
+
+</script>

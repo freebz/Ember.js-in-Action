@@ -1,0 +1,12 @@
+<!-- Listing 4.20  Using the {{action}} expression -->
+
+<script type="text/x-handlebars" id="bookDetails">
+  <div class="book">
+    <h1>{{title}}</h1>
+    <p>
+      By: {{author}}<br />
+      {{text}}<br />
+      <button {{action "editBookDetail" this}}>Edit Book</button>
+    </p>
+  </div>
+</script>

@@ -1,0 +1,12 @@
+<!-- Listing 4.26  Using the {{partial}} expression -->
+
+<script type="text/x-handlebars" id="books">
+  {{#each book in books}}
+      {{partial "book"}}
+  {{/each}}
+</script>
+
+<script type="text/x-handlebars" id="book">
+  Title: {{title}}<br />
+  Author: {{author}}<br />
+</script>

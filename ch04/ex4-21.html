@@ -1,0 +1,12 @@
+<!-- Listing 4.21  Specifying a DOM event type -->
+
+<script type="text/x-handlebars" id="bookDetails">
+  <div class="book">
+    <h1>{{title}}</h1>
+    <p>
+      By: {{author}}<br />
+      {{text}}<br />
+      <button {{action editBookDetail this on="doubleClick"}}>Edit Book</button>
+    </p>
+  </div>
+</script>

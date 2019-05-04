@@ -1,0 +1,15 @@
+<!-- Listing 4.22  Overriding the target option of the {{action}} expression -->
+
+<script type="text/x-handlebars" id="bookDetails">
+  <div class="book">
+    <h1>{{title}}</h1>
+    <p>
+      By: {{author}}<br />
+      {{text}}<br />
+      <button {{action "editBookDetail" this
+	      target="App.editBookController"}}>
+	Edit Book
+      </button>
+    </p>
+  </div>
+</script>

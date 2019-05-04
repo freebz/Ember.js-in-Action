@@ -1,0 +1,10 @@
+<!-- Listing 4.29  The {{render}} expression -->
+
+<script type="text/x-handlebars" id="books">
+  {{render "header"}}
+  <ul>
+    {{#each book in books}}
+      <li> {{partial "bookDetails"}} </li>
+    {{/each}}
+  </ul>
+</script>

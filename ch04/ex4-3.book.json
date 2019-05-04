@@ -1,0 +1,15 @@
+// Listing 4.3  The book catalog context
+
+{
+  "title": "Books",
+  "books": [
+    { "title": "Ember.js in Action",
+      "author": "Joachim Haagen Skeie",
+      "text": "A thorough overview of the Ember.js Framework"
+    },
+    { "title": "Secret of the JavaScript Ninja",
+      "author": "John Resig and Bear Bibeault",
+      "text": "A book about mastering modern JavaScript development"
+    }
+  ]
+}

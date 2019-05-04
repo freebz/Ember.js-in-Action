@@ -1,0 +1,10 @@
+<!-- Listing 4.30  The {{control}} expression -->
+
+<script type="text/x-handlebars" id="books">
+  {{render header}}
+  <ul>
+    {{#each book in books}}
+      {{control "bookDetails" book}}
+    {{/each}}
+  </ul>
+</script>

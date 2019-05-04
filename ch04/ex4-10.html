@@ -1,0 +1,12 @@
+<!-- Listing 4.10  Using {{with}} to shift the context for the book subsection -->
+
+<h1>{{title</h1>
+{{#each book in books}}
+    {{#with book}}
+        <div class="book">
+	    <h1>{{title}}</h1>
+	    <p>By: {{author}}<br />
+	    {{text}}</p>
+	</div>
+    {{/with}}
+{{/each}}

@@ -1,0 +1,7 @@
+<!-- Listing 4.28  Using the {{linkTo}} expression -->
+
+<script type="text/x-handlebars" id="blogIndex">
+  {{#each blog in blogs}}
+      {{#link-to "posts.post" blog}}View Post{{/link-to}}
+  {{/each}}
+</script>
