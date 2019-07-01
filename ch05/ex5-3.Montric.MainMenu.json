@@ -1,0 +1,30 @@
+// Listing 5.3  JSON data for the Montric.MainMenu
+
+{
+  "mainMenus": [
+    {
+      "id": "JSFlotJAgent",
+      "name": "JSFlotJAgent",
+      "children": [
+	"JSFlotJAgent:Agent Statistics",
+	"JSFlotJAgent:CPU",
+	"JSFlotJAgent:Frontend",
+	"JSFlotJAgent:Memory",
+	"JSFlotJAgent:Threads"
+      ],
+      "nodeType": "chart",
+      "chart": "JSFlotJAgent",
+      "parent": null
+    },
+    {
+      "id": "JSFlotJAgent:Agent Statistics",
+      "name": "Agent Statistics",
+      "children": [
+	"JSFlotJAgent:Agent Statistics:API Call Count"
+      ],
+      "nodeType": "chart",
+      "chart": "JSFlotJAgent:Agent Statistics",
+      "parent": "JSFlotAgent"
+    }
+  ]
+}

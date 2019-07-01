@@ -1,0 +1,14 @@
+// Listing 5.12  A nonstandard JSON hash for the Montric.User model
+
+{
+  "user_model": {
+    "id": joachim@haagen-software.no,
+    "user_name": "joachim@haagen-software.no",
+    "account_name": "Haagen Software",
+    "user_role": "root",
+    "firstname": "Joachim Haagen",
+    "lastname": "Skeie",
+    "company": "Haagen Software AS",
+    "country": "Norway"
+  }
+}
