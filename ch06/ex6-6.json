@@ -1,0 +1,14 @@
+// Listing 6.6  The JSON retrieved from the server
+
+{"abstracts": [
+        {
+	  "id": "05D5D5122DBA0C9E",
+	  "talkTitle": "Query params ...",
+	  "talkText": "An introduction to Ember Query...",
+	  "talkTopics": "querystring, router, pushState",
+	  "talkType": "20 or 35 minute talk",
+	  "talkByLoggedInUser": false,
+	  "talkSuggestedBy": "Alex Speller"
+	}
+  ]
+}
