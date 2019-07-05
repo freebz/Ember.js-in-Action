@@ -1,0 +1,13 @@
+<!-- Listing 7.4  Selecting a node and transitioning to the alerts.alert route -->
+
+<div class="list-group mediumTopPadding" style="width: 95%;">
+  {{#each node in nodes}}
+    {{#if linkTo}}
+      {{#linkTo linkTo node tagName=div
+	 classNames="list-group-item"}}
+        {{selectable-list-item node=node action="showDeleteModal"
+	  param=node textWidth=textWidth}}
+      {{/linkTo}}
+    {{/if}}
+  {{/each}}
+</div>

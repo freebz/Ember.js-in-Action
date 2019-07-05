@@ -1,0 +1,7 @@
+<!-- Listing 7.17  The updated components/tree-menu.hbs component template -->
+
+{{#each node in rootNodes}}
+  {{tree-menu-node node=node
+    allowMultipleSelections=allowMultipleSelections action="selectNode"
+    selectedNode=selectedNode}}
+{{/each}}

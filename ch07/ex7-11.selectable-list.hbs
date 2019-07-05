@@ -1,0 +1,16 @@
+<!-- Listing 7.11  The updated selectable-list component template -->
+
+<div class="list-group mediumTopPadding" style="width: 95%;">
+  {{#each node in nodes}}
+    {{#if linkTo}}
+      {{#linkTo linkTo node tagName=div
+	 classNames="list-group-item"}}
+	{{selectable-list-item node=node action="showDeleteModal"
+	  textWidth=textWidth}}
+	{{/linkTo}}
+    {{/if}}
+
+  {{/each}}
+</div>
+
+{{delete-modal id="deleteAlertModal" item=nodeForDelete}}
