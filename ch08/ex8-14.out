@@ -1,0 +1,17 @@
+Listing 8.14  The instrumentation result
+
+instrument: render.view {"template":null,
+"object":<LinkView:ember427>"}
+took:6.5119999926537275
+
+instrument: render.view {"template":null,
+"object":<Montric.BootstrapButton:ember434>"}
+took:6.587000010767952
+
+instrument: render.view {"template":null,
+"object":<Montric.HeaderView:ember424>"}
+took:9.111000021221116
+
+instrument: render.view {"template":"adminAlertLeftMenu"
+, "object": "<Ember.View:ember471>"}
+took:6.40800001565367
