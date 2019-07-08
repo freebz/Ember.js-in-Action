@@ -1,0 +1,9 @@
+// Listing 9.6  The JSON response from Mozilla Persona after a successful login attempt
+
+{
+  "status": "okay",
+  "email": "joachim@haagen-software.no",
+  "audience": "http://live.montric.no:443",
+  "expires": 1369060978610,
+  "issuer": "login.persona.org"
+}

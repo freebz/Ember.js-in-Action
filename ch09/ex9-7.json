@@ -1,0 +1,6 @@
+// Listing 9.7  The JSON response from the Montric back end
+
+{
+  "uuidToken": "99d21a30-1564-4863-a368-0a890f59532e",
+  "registered": false
+}
