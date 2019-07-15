@@ -1,0 +1,10 @@
+// Listing 11.3  Resulting package.json file after installing the concat plugin
+
+{
+  "name": "Montric",
+  "version": "0.9.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0"
+  }
+}

@@ -1,0 +1,12 @@
+// Listing 11.9  The package.json file after installing the grunt-ember-templates plugin
+
+{
+  "name": "Montric",
+  "version": "0.9.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-ember-templates": "~0.4.10"
+  }
+}
